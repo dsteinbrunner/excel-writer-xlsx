@@ -5838,7 +5838,7 @@ Source code for this example:
     
     ###############################################################################
     #
-    # Rotation 2, 90° anticlockwise
+    # Rotation 2, 90ï¿½ anticlockwise
     #
     my $format2 = $workbook->add_format(
         border   => 6,
@@ -5850,12 +5850,12 @@ Source code for this example:
     );
     
     
-    $worksheet->merge_range( 'D4:D9', 'Rotation 90°', $format2 );
+    $worksheet->merge_range( 'D4:D9', 'Rotation 90ï¿½', $format2 );
     
     
     ###############################################################################
     #
-    # Rotation 3, 90° clockwise
+    # Rotation 3, 90ï¿½ clockwise
     #
     my $format3 = $workbook->add_format(
         border   => 6,
@@ -5867,7 +5867,7 @@ Source code for this example:
     );
     
     
-    $worksheet->merge_range( 'F4:F9', 'Rotation -90°', $format3 );
+    $worksheet->merge_range( 'F4:F9', 'Rotation -90ï¿½', $format3 );
     
 
 
@@ -7105,7 +7105,7 @@ Download this example: L<http://cpansearch.perl.org/src/JMCNAMARA/Excel-Writer-X
 
 
 Example of how to change the default worksheet direction from
-left-to-right to right-to-left as required by some eastern verions
+left-to-right to right-to-left as required by some eastern versions
 of Excel.
 
 
